@@ -1,0 +1,99 @@
+/*GENERICS*/
+body, figure {
+    margin: 0px;
+}
+/*UTILITY*/
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+/*SFONDO E LOGO NELL'HEADER*/
+#pattern {
+    height: 100px;
+    background: #4ea0ff url('../img/pattern.png');
+    background-size: 300px;
+    line-height: 100px;
+}
+#logo {
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: #3cb4e7;
+}
+h1 {
+    margin-bottom: 0%;
+}
+address, time {
+    color: #808080;
+    font-style: normal;
+}
+figure {
+    margin: 20px 0px;
+}
+figcaption {
+    font-size: 9pt;
+}
+/*SPAN PER L'EVIDENZIATURA IN GIALLO*/
+mark {
+    background-color:gold;
+}
+/*UL PER FAR RIENTRARE I SIMBOLI NON ORDINATI DELLA LISTA*/
+ul {
+    padding-inline-start: 0px;
+    list-style-position: inside;
+}
+/*STILE DELLA TABELLA*/
+thead {
+    background-color: #20a9e5;
+}
+.tr-azzurro {
+    background-color: #b1e5f2;
+}
+table, td, th {
+    border-collapse: collapse;
+}
+table {
+    text-align: left;
+}
+th {
+    width: 350px;
+    color: #fff;
+}
+table {
+    width: 100%;
+}
+.th-700 {
+    width: 700px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.td-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*STILE DELLA SEZIONE "POTREBBERO INTERESSARTI"*/
+h2 {
+    color: #808080;
+    font-size: large;
+}
+.card {
+    width: 220px;
+    height: 180px;
+    background-position: center;
+    margin-bottom: 10px;
+}
+.h2-box {
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0%;
+}
+.monitor{
+    background-image: url('../img/monitor.jpg');
+}
+.graph{
+    background-image: url('../img/graph.jpg');
+}
